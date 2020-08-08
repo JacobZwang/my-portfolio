@@ -46,6 +46,7 @@ export default {
   --bezelSize: 10pt;
   --frameCorner: 10pt;
   --bezelCorner: 10pt;
+  --read: #2c3e50;
 }
 
 h1 {
@@ -74,5 +75,11 @@ p1 {
 p2 {
   text-align: left;
   display: block;
+  font-weight: bold;
+}
+p3 {
+  display: block;
+  text-align: left;
+  margin: 5pt;
 }
 </style>
