@@ -6,23 +6,27 @@
     />
     <div class="social">
       <img src="~@/assets/email.svg" class="icon" />
-      <p2 class="menuText">zwang.jacob@gmail.com</p2>
+      <p2 class="menuText">
+        <a href="mailto:zwang.jacob@gmail.com" target="_blank">zwang.jacob@gmail.com</a>
+      </p2>
     </div>
     <div class="social">
-      <img
-        src="~@/assets/instagram.svg"
-        class="icon"
-        style="transform: scale(0.8)"
-      />
-      <p2 class="menuText">@theshortjacob</p2>
+      <img src="~@/assets/instagram.svg" class="icon" style="transform: scale(0.8)" />
+      <p2 class="menuText">
+        <a href="https://www.instagram.com/theshortjacob/" target="_blank">@theshortjacob</a>
+      </p2>
     </div>
     <div class="social">
-      <img
-        src="~@/assets/linkedin.svg"
-        class="icon"
-        style="transform: scale(0.7) translateY(-3pt)"
-      />
-      <p2 class="menuText">jacobzwang</p2>
+      <img src="~@/assets/linkedin.svg" class="icon" style="transform: scale(0.7) translateY(-3pt)" />
+      <p2 class="menuText">
+        <a href="https://www.linkedin.com/in/jacobzwang/" target="_blank">/in/jacobzwang</a>
+      </p2>
+    </div>
+    <div class="social">
+      <img src="~@/assets/github.svg" class="icon" style="transform: scale(0.7) translateY(-3pt)" />
+      <p2 class="menuText">
+        <a href="https://github.com/jacobzwang" target="_blank">/jacobzwang</a>
+      </p2>
     </div>
     <p3 class="menuText">
       Hi, I'm Jacob Zwang, I'm a web developer, graphic designer, and project

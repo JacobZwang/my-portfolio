@@ -2,19 +2,19 @@
   <div id="app">
     <div class="appWrapper">
       <SideBar />
-      <Portfolio />
+      <SplashHacks />
     </div>
   </div>
 </template>
 
 <script>
-import Portfolio from "./components/Portfolio.vue";
+import SplashHacks from "./projects/SplashHacks.vue";
 import SideBar from "./components/SideBar.vue";
 
 export default {
   name: "App",
   components: {
-    Portfolio,
+    SplashHacks,
     SideBar,
   },
 };
