@@ -22,13 +22,18 @@
 .infoColumn {
   width: 50%;
   height: 100%;
-  overflow-y: scroll;
   transition: 400ms;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
 }
 .displayColumn {
   width: 50%;
   height: 100%;
   transition: 400ms;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
 }
 :hover.infoColumn {
   width: 80%;
@@ -37,6 +42,13 @@
     width: 20%;
     transition: 400ms;
   }
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.displayColumn::-webkit-scrollbar {
+  display: none;
+}
+.infoColumn::-webkit-scrollbar {
+  display: none;
 }
 :hover.displayColumn {
   width: 80%;

@@ -2,19 +2,20 @@
   <div id="app">
     <div class="appWrapper">
       <SideBar />
-      <SplashHacks />
+      <!-- <div class="portfolio" style="overflow-y: scroll; width: 100%">
+      <div style="height: 100vh;"></div>-->
+      <router-view></router-view>
+      <!-- </div> -->
     </div>
   </div>
 </template>
 
 <script>
-import SplashHacks from "./projects/SplashHacks.vue";
 import SideBar from "./components/SideBar.vue";
 
 export default {
   name: "App",
   components: {
-    SplashHacks,
     SideBar,
   },
 };
@@ -81,5 +82,15 @@ p3 {
   display: block;
   text-align: left;
   margin: 5pt;
+}
+.portfolio {
+  overflow-y: scroll;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.portfolio::-webkit-scrollbar {
+  display: none;
 }
 </style>
